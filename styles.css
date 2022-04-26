@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 15px;
+    position: relative;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
+    url(./images/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.0em;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.enjoy {
+    color: coral;
+}
+
+ .hero a { 
+    background: #333;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 5px;
+} 
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info img {
+    max-width: 720px;
+    max-height: 410px; 
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.8em;
+}
+
+.history h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.history span {
+    color: coral;
+}
+
+.history p {
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.history a {
+    background: #f4f4f4;
+    color: black;
+    padding: 5px 10px;
+    width: fit-content;  
+    border-radius: 5px;
+}
+
+.amenities {
+    background-color: #fff;
+    display: flex;
+}
+.amenities div {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: black;   
+}
+
+.amenities div:hover {
+    background-color: coral;
+}
+
+.amenities h4 {
+    margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 0;
+}
