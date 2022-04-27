@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* HOME PAGE STYLING */
 body {
     background: #333;
     color: #fff;
@@ -34,7 +35,7 @@ a {
     display: inline;
     list-style: none;
     margin-left: 30px;
-    
+
 }
 
 .navbar li a:hover {
@@ -44,8 +45,8 @@ a {
 /* Hero Section */
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
-    url(./images/showcase.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+        url(./images/showcase.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,12 +67,12 @@ a {
     color: coral;
 }
 
- .hero a { 
+.hero a {
     background: #333;
     padding: 5px 10px;
     width: fit-content;
     border-radius: 5px;
-} 
+}
 
 /* Info Section */
 .info {
@@ -81,7 +82,7 @@ a {
 
 .info img {
     max-width: 720px;
-    max-height: 410px; 
+    max-height: 410px;
 }
 
 .history {
@@ -110,7 +111,7 @@ a {
     background: #f4f4f4;
     color: black;
     padding: 5px 10px;
-    width: fit-content;  
+    width: fit-content;
     border-radius: 5px;
 }
 
@@ -118,6 +119,7 @@ a {
     background-color: #fff;
     display: flex;
 }
+
 .amenities div {
     height: 300px;
     width: 300px;
@@ -127,7 +129,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: black;   
+    color: black;
 }
 
 .amenities div:hover {
@@ -137,6 +139,116 @@ a {
 .amenities h4 {
     margin-bottom: 30px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin-top: 0;
+}
+
+
+/* ABOUT PAGE STYLING */
+
+.aboutpage {
+    max-height: 100vh;
+}
+
+.content2 {
+    background-color: #fff;
+    color: #000;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.info2 {
+    padding: 0 10px;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: ;
+}
+
+.info2 h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info2 p {
+    margin-top: 30px;
+}
+
+.info2 span {
+    color: coral;
+}
+
+
+/* Testimonial Styling */
+
+.testimonials {
+    background-image: url(./images/outside.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.guests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guest1 img,
+.guest2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    padding-right: 20px;
+    
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.guest1 div,
+.guest2 div {
+    border: 2px solid red;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: coral;
+    padding: 10px;
+}
+
+.guest1, .guest2 {
+    margin-bottom: 50px;
+}
+
+
+
 .footer {
     display: flex;
     justify-content: center;
