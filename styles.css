@@ -218,7 +218,7 @@ a {
 
 .guest1 img,
 .guest2 img {
-    width: 300px;
+    width: 350px;
     height: 150px;
     border-radius: 50%;
     padding-right: 20px;
@@ -248,7 +248,53 @@ a {
 }
 
 
+/* CONTACT PAGE STYLING */
 
+.contact-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: black;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: coral;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact-form-text{
+    display: block;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 40px;
+}
+
+.contact-form-btn{
+    border: 0;
+    background: coral;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact-form-btn:hover{
+    background-color: #de4d45;
+}
 .footer {
     display: flex;
     justify-content: center;
